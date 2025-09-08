@@ -12,6 +12,7 @@ const minutesEl = document.querySelector('[data-minutes]');
 const secondsEl = document.querySelector('[data-seconds]');
 
 let userSelectedDate = null;
+let timerInterval = null;
 
 const options = {
   enableTime: true,
